@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-118315-3988-y8vaao.r7huygmn29"
+    ]
+  ],
+  "_from": "../d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+  "_id": "casefile@1.1.2",
+  "_inCache": true,
+  "_location": "/casefile",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+  "_shasum": "04ba78d60b6aaf12ffd4b5deea6e91ed96f1f72c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-3988-1ny3g3x.awlxvzehfr/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-118315-3988-y8vaao.r7huygmn29",
+  "activationCommands": {
+    "atom-workspace": [
+      "casefile:add-bookmark",
+      "casefile:open",
+      "casefile:import-bookmarks"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/rtweeks/casefile/issues"
+  },
+  "dependencies": {
+    "etch": "^0.12.8",
+    "flux": "^3.1.3",
+    "jquery": "^3.2.1",
+    "marked": "^0.3.6",
+    "tempy": "^0.1.0"
+  },
+  "description": "Bookmarks package for programmer-archeologists",
+  "devDependencies": {
+    "jsx": "^0.9.89"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rtweeks/casefile#readme",
+  "keywords": [
+    "bookmark",
+    "bookmarks"
+  ],
+  "license": "MIT",
+  "main": "./lib/casefile",
+  "name": "casefile",
+  "optionalDependencies": {},
+  "readme": "# casefile package\n\nThe essential assistant for deep-dives in code\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n\nCasefile is a bookmark manager on steroids, including:\n\n* A _Casefile_ tab that displays all bookmarks in the project\n* Bookmarks that include text to find at (or around) the designated location\n* Drag-and-drop reordering and hierarchical organization of bookmarks\n* User-supplied notes on bookmarks\n* Bookmark locations linked to specific commits (for Git-managed projects), allowing the bookmarked text to be located even after the file is modified\n\n## Configuration\n\nIf you have your `git` or `diff` tools installed in any unusual directories, make sure to set the *Tool Path* setting appropriately.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtweeks/casefile.git"
+  },
+  "version": "1.1.2"
+}

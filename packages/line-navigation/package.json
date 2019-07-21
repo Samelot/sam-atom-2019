@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-10953-14lg4ih.5irkxx0f6r"
+    ]
+  ],
+  "_from": "../d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+  "_id": "line-navigation@0.1.6",
+  "_inCache": true,
+  "_location": "/line-navigation",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+  "_shasum": "6b30e1fce3660a80518394bc4521925150eaad3f",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10953-gli0qb.44933rqkt9/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-10953-14lg4ih.5irkxx0f6r",
+  "activationEvents": [
+    "line-navigation:fuzzySearch"
+  ],
+  "bugs": {
+    "url": "https://github.com/germtb/atom-line-navigation/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "fuzzy": "^0.1.3",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "reselect": "^3.0.0"
+  },
+  "description": "Fuzzy search lines of your current file",
+  "devDependencies": {
+    "atom": "~1.0.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/germtb/atom-line-navigation#readme",
+  "keywords": [
+    "fuzzy",
+    "search",
+    "code-navigation"
+  ],
+  "license": "MIT",
+  "main": "./lib/line-navigation",
+  "name": "line-navigation",
+  "optionalDependencies": {},
+  "readme": "# line-navigation package\n\nFuzzy search lines of your current file\n\n![](https://raw.githubusercontent.com/germtb/gifs/master/line-navigation.gif)\n\nThe default keybinding to open the panel use `ctrl``l`\n\nTo override the highlighting styles use the following in your `styles.less` of:\n\n```less\n.line.line-navigation {\n\tbackground-color: rgba(105, 238, 103, 0.2);\n}\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germtb/atom-line-navigation.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter progress --compilers js:babel-core/register --recursive 'lib/**/*.test.js'"
+  },
+  "version": "0.1.6"
+}

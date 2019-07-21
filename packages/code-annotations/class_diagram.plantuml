@@ -1,0 +1,33 @@
+@startuml
+hide empty members
+
+class Atom.Project
+class Atom.TextEditor
+
+class AnnotationManager
+class AnnotationContainer
+together {
+    class AnnotationsDb
+    class Annotation
+}
+
+class ImageRenderer
+class HtmlRenderer
+class LinkRenderer
+class TextRenderer
+
+
+
+Atom.Project "1" -- "1" AnnotationsDb
+AnnotationManager "1" --> "1" AnnotationContainer
+AnnotationContainer "1" o-- "*" Annotation
+AnnotationManager "1" -> "*" AnnotationsDb
+AnnotationsDb "1" -- "*" Annotation
+Atom.TextEditor "1" --- "*" Annotation
+
+Annotation "1" o-- "1" TextRenderer
+Annotation "1" o-- "1" ImageRenderer
+Annotation "1" o-- "1" HtmlRenderer
+Annotation "1" o-- "1" LinkRenderer
+
+@enduml

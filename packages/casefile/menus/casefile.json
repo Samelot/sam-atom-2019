@@ -1,0 +1,46 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Add Casefile Bookmark",
+        "command": "casefile:add-bookmark"
+      }
+    ],
+    "casefile-viewer": [
+      {
+        "label": "Open Casefile in Editor",
+        "command": "casefile:to-text"
+      },
+      {
+        "label": "Clear All Bookmarks...",
+        "command": "casefile:clear-bookmarks"
+      }
+    ],
+    "casefile-viewer .bookmark-body": [
+      {
+        "label": "Edit Bookmark Notes...",
+        "command": "casefile:edit-notes"
+      },
+      {
+        "label": "Move Children Up",
+        "command": "casefile:move-children-up"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Edit",
+      "submenu": [
+        {
+          "label": "Bookmark",
+          "submenu": [
+            {
+              "label": "Add Casefile Bookmark",
+              "command": "casefile:add-bookmark"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

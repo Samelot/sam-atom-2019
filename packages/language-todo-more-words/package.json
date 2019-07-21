@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-119617-10872-19dawbg.sytpxecdi"
+    ]
+  ],
+  "_from": "../d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+  "_id": "language-todo-more-words@2.7.0",
+  "_inCache": true,
+  "_location": "/language-todo-more-words",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+  "_shasum": "f04a626e6001d4764beeffbb58334a06b11b1229",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-119617-10872-yibdbu.clmqaaif6r/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-119617-10872-19dawbg.sytpxecdi",
+  "bugs": {
+    "url": "https://github.com/jameelmoses/atom-language-todo-more-words/issues"
+  },
+  "dependencies": {},
+  "description": "Extra words highlighting support in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/jameelmoses/atom-language-todo-more-words#readme",
+  "keywords": [
+    "todo"
+  ],
+  "license": "MIT",
+  "name": "language-todo-more-words",
+  "optionalDependencies": {},
+  "readme": "# language-todo-more-words package\n\nAdds syntax highlighting to NOTE, INFO, IDEA, DEBUG, REMOVE, OPTIMIZE, REVIEW, HACK, UNDONE, TO DO, REFACTOR, DEPRECATED, TASK, CHGME, NOTREACHED, WTF, BUG, ERROR, OMG, ERR, OMFGRLY, WARNING, WARN and BROKEN in comments and text in Atom.\n\n![screenshot](./screenshot.png)\n\nBased on [language-todo](https://github.com/atom/language-todo).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameelmoses/atom-language-todo-more-words.git"
+  },
+  "version": "2.7.0"
+}

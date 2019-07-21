@@ -1,0 +1,38 @@
+# unset keymaps in 'body' to prevent their occurence when focusing in Settings
+'body':
+    'escape': 'unset!'
+    'ctrl-alt-cmd-m': 'unset!'
+
+'.platform-darwin':
+    'cmd-.': 'unset!'
+    'ctrl-0': 'unset!'
+    'cmd-b': 'fuzzy-finder:toggle-buffer-finder'
+
+'.platform-darwin atom-text-editor':
+    'cmd-f3': 'unset!'
+    'shift-cmd-f3': 'unset!'
+
+'.platform-darwin .find-and-replace':
+    'escape': 'custom:cancel'
+
+'.platform-darwin .command-palette, .fuzzy-finder, .recent-files-fuzzy-finder':
+    'escape': 'core:cancel'
+
+'atom-workspace atom-text-editor:not([mini])':
+    'cmd-<': 'unset!'
+    'escape': 'editor:consolidate-selections'
+
+'atom-workspace':
+    'f3': 'todo-show:toggle'
+    'cmd-f3': 'process-palette:toggle'
+    'shift-f3': 'minimap:toggle'
+    'shift-f5': 'process-palette:kill-focused-process'
+    'cmd-alt-f5': 'process-palette:hide'
+    'cmd-.': 'application:open-your-keymap'
+    'cmd-shift-.': 'application:open-your-config'
+    'cmd-\\': 'tree-view:toggle-focus'
+
+#needed when in editor
+# '.workspace .editor:not(.mini)':
+    # 'cmd-.': 'application:open-your-keymap'
+    # 'cmd-<': 'application:open-your-config'

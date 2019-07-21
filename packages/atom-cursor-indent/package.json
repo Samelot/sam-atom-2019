@@ -1,0 +1,76 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117119-840-1j5df0x.w2rbxzuxr"
+    ]
+  ],
+  "_from": "../d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+  "_id": "atom-cursor-indent@0.3.0",
+  "_inCache": true,
+  "_location": "/atom-cursor-indent",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+  "_shasum": "ce3d139627235ebaf47b94248999b59e5ccd981a",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117119-840-t5cxsi.3qdbm1v2t9/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117119-840-1j5df0x.w2rbxzuxr",
+  "author": {
+    "name": "John Babak",
+    "email": "babak.john@gmail.com",
+    "url": "https://github.com/sompylasar"
+  },
+  "bugs": {
+    "url": "https://github.com/sompylasar/atom-cursor-indent/issues"
+  },
+  "dependencies": {},
+  "description": "Makes the cursor follow the desired (auto) indentation on empty lines.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sompylasar/atom-cursor-indent#readme",
+  "keywords": [
+    "atom-cursor-indent",
+    "atom",
+    "cursor",
+    "indent",
+    "indentation",
+    "auto-indent",
+    "virtual-whitespace",
+    "virtual",
+    "whitespace",
+    "space"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-cursor-indent",
+  "name": "atom-cursor-indent",
+  "optionalDependencies": {},
+  "readme": "# atom-cursor-indent package\n\nMakes the cursor follow the desired (auto) indentation on empty lines.\n\n![Demo](https://cloud.githubusercontent.com/assets/498274/12710012/0c317764-c8c3-11e5-8c82-1cc832e69952.gif)\n\nInspired by the [virtual space snippet](https://discuss.atom.io/t/virtual-space/15603/3) by [Olmo Kramer](https://discuss.atom.io/users/olmokramer).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sompylasar/atom-cursor-indent.git"
+  },
+  "version": "0.3.0"
+}

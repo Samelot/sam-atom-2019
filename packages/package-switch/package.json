@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117107-27102-1mo1iyp.qk7kx4j9k9"
+    ]
+  ],
+  "_from": "../d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+  "_id": "package-switch@0.5.0",
+  "_inCache": true,
+  "_location": "/package-switch",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+  "_shasum": "fa875784156c94d57032c3c55f3820486e86df29",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117107-27102-5zah8n.zj2n9afw29/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117107-27102-1mo1iyp.qk7kx4j9k9",
+  "bugs": {
+    "url": "https://github.com/deprint/package-switch/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "fs-plus": "^2.0.4",
+    "season": "^5.2.0"
+  },
+  "description": "Easy package activation/deactivation",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/deprint/package-switch#readme",
+  "keywords": [
+    "package",
+    "bundle"
+  ],
+  "license": "MIT",
+  "main": "lib/main",
+  "name": "package-switch",
+  "optionalDependencies": {},
+  "readme": "package-switch\n==============\n[![Build Status](https://travis-ci.org/deprint/package-switch.svg)](https://travis-ci.org/deprint/package-switch) [![Dependency Status](https://david-dm.org/deprint/package-switch.svg)](https://david-dm.org/deprint/package-switch) [![apm](https://img.shields.io/apm/dm/package-switch.svg)](https://github.com/deprint/package-switch) [![apm](https://img.shields.io/apm/v/package-switch.svg)](https://github.com/deprint/package-switch)\n\n## Easy package activation/deactivation\n![package-switch-2](https://cloud.githubusercontent.com/assets/7817714/8269467/947642ce-17a9-11e5-8602-3a1de749edd1.png)\n\n## Features\n* Enable/disable packages without having to navigate settings-view\n* Put multiple packages into `Bundles` to enable/disable them all at once\n* Store local bundles in `.package-switch.cson` files\n* Auto-execute local bundle if only one project is active\n* Save and restore package states to save start-up time\n\n## Usage\n### Create a Bundle\n1. Run `package-switch:create`\n2. Each package has one of three \"actions\" (Select a package and press `Enter` to cycle through them):\n  * Ignored (`/`) packages do not change when a bundle is executed\n  * Added (`+`) packages will be enabled\n  * Removed (`-`) packages will be disabled\n![package-switch-create](https://cloud.githubusercontent.com/assets/7817714/8269547/deb667ca-17ad-11e5-9124-b5c3a4f42e74.png)\n3. Press `Escape` once you've finished your list ( to abort: Press `Escape` twice )\n4. A new dialog box will open where you enter the name of your bundle\n![package-switch-name](https://cloud.githubusercontent.com/assets/7817714/8269546/d4a422ae-17ad-11e5-8384-8a9b72a9fd92.png)\n5. Press `Enter` to create the bundle\n\n### Execute a Bundle/Package\n1. Run `package-switch:start-packages` or `package-switch:stop-packages`\n2. Select the Bundle/Package\n  * Added (`+`) packages will be enabled\n  * Removed (`-`) packages will be disabled\n  * `package-switch:stop-packages` does the opposite of `package-switch:start-packages`\n\n### \"Auto-enable\" packages\nTo auto-enable packages you have to create a local configuration file called `.package-switch.cson` in your project's root folder.\nThis config file can store one bundle that will be executed when Atom starts in the project folder.\n\n### \"Auto-disable\" packages\nYou may want to enable as few packages at startup as possible in order to reduce Atom's startup time. When \"Save and restore packages\" is enabled, you can define a blacklist or whitelist for packages. By default, all entries in \"Package States\" will be disabled when you close Atom, which means that, when you restart, these packages will be disabled and not waste start-up time.\n\nYou can invert \"Package States\" (and thus create a whitelist) by enabling \"Invert Package States\".\n__package-switch with a whitelist will disable ALL packages except those in \"Package States\", as well as `tree-view`, `settings-view`, `tabs` and `command-palette` if a local config file could not be found and `package-switch` itself (because just core Atom is pretty much unusable). If you provide a local config file then make sure that the important core modules stay enabled. It is also recommended to enable \"Do not disable language packages\", so you don't have to micro-manage every grammar.__\n\n__A wrong whitelist configuration can render Atom unusable because even `atom --safe` adheres to this package's rules!!!!__\n\n## Debugging\nGlobal bundles are stored in `~/.atom/package-switch.bundles` or your OS-equivalent.\nInclude this file in bug reports if you think the bug is in this file.\nLocal configuration files can be opened as a text editor by right-clicking the file in tree-view and clicking on `Open as Text`.\n\n## Roadmap\n* Bug fixes, etc.\n\n## Contributing\n* Let me know if you encounter any bugs.\n* Feature requests are always welcome.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deprint/package-switch.git"
+  },
+  "version": "0.5.0"
+}

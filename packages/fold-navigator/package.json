@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-118315-4016-hspgrz.dwv04fgvi"
+    ]
+  ],
+  "_from": "../d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+  "_id": "fold-navigator@0.0.622",
+  "_inCache": true,
+  "_location": "/fold-navigator",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+  "_shasum": "4fd5b484a31ea8632e711561fe95a7809e27b676",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118315-4016-xvkgm2.z4rpjsjor/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-118315-4016-hspgrz.dwv04fgvi",
+  "activationCommands": {
+    "atom-workspace": "fold-navigator:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/turigeza/fold-navigator/issues"
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0",
+    "fuzzaldrin-plus": "^0.1.0",
+    "lodash": "^4.17.5"
+  },
+  "description": "A preview of your source code through code folding points. ",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.7.0"
+  },
+  "homepage": "https://github.com/turigeza/fold-navigator#readme",
+  "keywords": [
+    "fold",
+    "navigator",
+    "code",
+    "folding",
+    "navigation",
+    "map",
+    "summary"
+  ],
+  "license": "MIT",
+  "main": "./lib/fold-navigator.js",
+  "name": "fold-navigator",
+  "optionalDependencies": {},
+  "readme": "# Fold Navigator\nfold-navigator package for [Atom](https://atom.io/) text editor\n\nIt helps you navigate your code folding points within Atom. It takes the lines where the folding points are and lists them with their indentation to give you an overview of your code.\n\nIt serves a similar purpose to the minimap package but with a different approach.\n\nI was missing Netbeans code navigator so much I had to come up with something which helps me navigate through my code in Atom.\n\n## Things it can do:\n\n### 1. List all the folding points.\n![List all the folding points.](https://raw.githubusercontent.com/turigeza/fold-navigator/master/resources/all_folding_points.png)\n\n### 2. Search your folding points.\n![A screenshot of your package](https://raw.githubusercontent.com/turigeza/fold-navigator/master/resources/fold_search.png)\n\n### 3. You can limit the depth it will parse and list.\nYou could use this if you only wanted to see let's say a list of methods in a class. In which case you might not care what is at indentation level 5.\nThis is a screen shot where max indentation is set to 1. This (and all settings btw) can be grammar specific.\n\n![A screenshot of your package](https://raw.githubusercontent.com/turigeza/fold-navigator/master/resources/limited_folds_search.png)\n\n### 4. Move within folds.\nA list of commands available to you to navigate within the folds.\n\n1. previousFold (ctrl-alt-cmd-up)\n2. nextFold (ctrl-alt-cmd-down)\n3. moveLevelUp (ctrl-alt-cmd-left)\n4. moveLevelDown (ctrl-alt-cmd-right)\n5. nextFoldAtCurrentLevel\n6. previousFoldAtCurrentLevel\n\n### 5. Keep your code folded at all time.\nIf you are into that kind of thing. Since I can see my fold points in the navigator panel for me actually now easier not to fold my code at all. But it's there within fold navigator settings if you prefer it that way.\n\n### 6. Toggle folds at level 1, 2, 3, 4 , 5 ctrl+1. ctrl+2 etc ... ,\nYou can toggle the folding at specific level. It might be helpful when you are reading someone else's code and you want to get a quick overview of what is going on at the different indentation levels.\n\n### 7. Toggle sub folds.\nTypically Atom will only unfold the very fold you have clicked on and not the the folds under it. This command will toggle all sub folds within a fold. Currently it is assigned to ctrl-alt-cmd-/ and yes it would be nicer if I could override the double click Atom opens fold with but I don't yet know how to do that. So maybe in the future.\n\n### 8. Per language/grammar settings.\nAll the options can be defined per language (grammar) bases but for now it only supports one language per editor. So it will not support mixed content like html + javascript.\n\nLanguage specific settings are in your config.cson which you have to edit manually.\nYou will find most of what you need here\n[http://flight-manual.atom.io/using-atom/sections/basic-customization/](http://flight-manual.atom.io/using-atom/sections/basic-customization/)\n\n### Notes:\n\n1. It only works if your code is indented and well formatted. I use [https://atom.io/packages/atom-beautify](https://atom.io/packages/atom-beautify) to achieve this.\n2. You must open the fold navigator panel at least once after you have started Atom to be able to use this package. This is because fold navigator does not start/activate when Atom starts. Use ctrl-alt-cmd-[ to open the fold navigator panel.\n3. Skype on a Mac uses one of the shortcuts (ctrl-alt-cmd-up) globally. So if you find your shortcuts don't work it's most likely because of Skype. If you find a way around this please let me know.\n\nTry it and see. Feel free to suggest and let me know if you have any issues/bugs.\n\nHappy coding! : )\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turigeza/fold-navigator.git"
+  },
+  "version": "0.0.622"
+}

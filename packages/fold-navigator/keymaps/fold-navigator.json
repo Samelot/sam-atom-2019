@@ -1,0 +1,17 @@
+{
+    "atom-workspace": {
+        "ctrl-alt-cmd-[": "fold-navigator:toggle",
+        "ctrl-alt-cmd-]": "fold-navigator:close",
+        "ctrl-alt-cmd-up": "fold-navigator:previousFold",
+        "ctrl-alt-cmd-down": "fold-navigator:nextFold",
+        "ctrl-alt-cmd-right": "fold-navigator:moveLevelDown",
+        "ctrl-alt-cmd-left": "fold-navigator:moveLevelUp",
+        "ctrl-1": "fold-navigator:toggleFoldsLevel1",
+        "ctrl-2": "fold-navigator:toggleFoldsLevel2",
+        "ctrl-3": "fold-navigator:toggleFoldsLevel3",
+        "ctrl-4": "fold-navigator:toggleFoldsLevel4",
+        "ctrl-5": "fold-navigator:toggleFoldsLevel5",
+        "ctrl-alt-cmd-shift": "fold-navigator:toggleSearch",
+        "ctrl-alt-cmd-/": "fold-navigator:toggleActiveFold"
+    }
+}

@@ -1,0 +1,41 @@
+.line.line-navigation {
+	background-color: rgba(105, 238, 103, 0.2);
+}
+
+.line-navigation-match {
+	display: flex;
+	margin-left: 5.5px;
+	margin-bottom: 10px;
+}
+
+.line-navigation-match__line-number {
+	width: 20px;
+	text-align: right;
+	margin-right: 20px;
+	opacity: 0.6;
+}
+
+.line-navigation-match__line {
+	text-align: left;
+	opacity: 0.8;
+	display: flex;
+
+	&--selected {
+		opacity: 1;
+		font-weight: bold;
+	}
+}
+
+.fuzzy-match {
+	display: flex;
+	overflow: scroll;
+}
+
+.fuzzy-match__character {
+	color: #568af2;
+}
+
+.line-navigation-wrapper .header {
+	max-height: 450px;
+	overflow: scroll;
+}

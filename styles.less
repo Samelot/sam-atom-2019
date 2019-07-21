@@ -1,0 +1,86 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+atom-panel-container .right {
+    .title {
+        background-color:green;
+    }
+}
+atom-panel-container .bottom {
+    .title {
+        background-color:green;
+    }
+}
+
+.process-palette {
+    padding-top:32px;
+    padding-bottom:1px;
+    background-color: blue;
+    .projects-list {
+        margin-left: auto;
+        margin-right: auto;
+        .project-view {
+            background-color: green;
+        }
+    }
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}
+
+// SAM
+atom-text-editor:not(.mini) {
+    .syntax--storage {
+        &.syntax--sam {
+        color: lime;
+        border:1px solid red;
+        }
+    }
+}
+
+// atom-text-editor:not(.mini)::shadow .syntax--punctuation.syntax--definition.syntax--comment {
+//     background-color: yellow !important;
+// }
+//
+// atom-text-editor:not(.mini)::shadow .punctuation.definition.comment.lua {
+//     background-color: yellow !important;
+// }
+
+atom-text-editor .gutter .bookmarked {
+  background: rgba(0,153,204,.15);
+  padding-right: 1024px; //arbitrary large width
+  pointer-events: none;
+  border-left: 2px solid #09C; //optional gutter decoration
+  z-index: -1;
+  color: rgba(255,255,255,.5);
+  transition: color .1s linear; //smooth transition
+  &.cursor-line {
+    color: #fff;
+  }
+}
+
+.minimap .bookmark {
+    background:#FFFFFF;
+}

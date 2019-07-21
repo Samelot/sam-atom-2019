@@ -1,0 +1,28 @@
+{
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Toggle Fold Navigator",
+            "command": "fold-navigator:toggle"
+        }],
+        ".fold-navigator": [{
+            "label": "Close panel",
+            "command": "fold-navigator:close"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Fold Navigator",
+            "submenu": [{
+                "label": "Toggle",
+                "command": "fold-navigator:toggle"
+            }]
+        }]
+    }, {
+        "label": "View",
+        "submenu": [{
+            "label": "Toggle Fold Navigator",
+            "command": "fold-navigator:toggle"
+        }]
+    }]
+}

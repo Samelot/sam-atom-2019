@@ -1,0 +1,37 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Package Switch'
+      'submenu': [
+        {
+          'label': 'Start Packages'
+          'command': 'package-switch:start-packages'
+        },
+        {
+          'label': 'Stop Bundle'
+          'command': 'package-switch:stop-packages'
+        },
+        {
+          'label': 'Create bundle'
+          'command': 'package-switch:create'
+        },
+        {
+          'label': 'Edit bundle'
+          'command': 'package-switch:edit'
+        },
+        {
+          'label': 'Remove bundle'
+          'command': 'package-switch:remove'
+        },
+        {
+          'label': 'Open global config file'
+          'command': 'package-switch:open-global'
+        }
+      ]
+    ]
+  }
+]
+'context-menu':
+  '.tree-view .file .name[data-name$="\\.package-switch\\.cson"]':
+    [{label: 'Open as Text', command: 'package-switch:open-local'}]

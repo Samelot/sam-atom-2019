@@ -1,0 +1,202 @@
+{
+  "sam": {
+    "packages": [
+      {
+        "name": "about",
+        "action": "removed"
+      },
+      {
+        "name": "atom-cursor-indent",
+        "action": "removed"
+      },
+      {
+        "name": "atom-jump-block",
+        "action": "removed"
+      },
+      {
+        "name": "atom-macros",
+        "action": "added"
+      },
+      {
+        "name": "auto-fold",
+        "action": "removed"
+      },
+      {
+        "name": "autocomplete-corona",
+        "action": "added"
+      },
+      {
+        "name": "background-tips",
+        "action": "removed"
+      },
+      {
+        "name": "browse",
+        "action": "added"
+      },
+      {
+        "name": "casefile",
+        "action": "removed"
+      },
+      {
+        "name": "code-annotations",
+        "action": "removed"
+      },
+      {
+        "name": "code-peek",
+        "action": "removed"
+      },
+      {
+        "name": "codesidestory-atom",
+        "action": "removed"
+      },
+      {
+        "name": "expand-region",
+        "action": "removed"
+      },
+      {
+        "name": "fold-functions",
+        "action": "added"
+      },
+      {
+        "name": "folded-code-preview",
+        "action": "removed"
+      },
+      {
+        "name": "full-path-in-title-bar",
+        "action": "removed"
+      },
+      {
+        "name": "fuzzy-finder",
+        "action": "added"
+      },
+      {
+        "name": "github",
+        "action": "removed"
+      },
+      {
+        "name": "imdone-atom",
+        "action": "added"
+      },
+      {
+        "name": "indent-guide-improved",
+        "action": "added"
+      },
+      {
+        "name": "jumpy",
+        "action": "removed"
+      },
+      {
+        "name": "language-lua",
+        "action": "added"
+      },
+      {
+        "name": "language-todo",
+        "action": "removed"
+      },
+      {
+        "name": "language-todo-extra-words",
+        "action": "added"
+      },
+      {
+        "name": "line-jumper",
+        "action": "removed"
+      },
+      {
+        "name": "line-navigation",
+        "action": "removed"
+      },
+      {
+        "name": "metrics",
+        "action": "removed"
+      },
+      {
+        "name": "minimap",
+        "action": "added"
+      },
+      {
+        "name": "minimap-bookmarks",
+        "action": "added"
+      },
+      {
+        "name": "minimap-find-and-replace",
+        "action": "added"
+      },
+      {
+        "name": "minimap-highlight-selected",
+        "action": "added"
+      },
+      {
+        "name": "nav-panel-plus",
+        "action": "removed"
+      },
+      {
+        "name": "organized",
+        "action": "added"
+      },
+      {
+        "name": "package-generator",
+        "action": "removed"
+      },
+      {
+        "name": "package-switch",
+        "action": "added"
+      },
+      {
+        "name": "pigments",
+        "action": "removed"
+      },
+      {
+        "name": "process-palette",
+        "action": "added"
+      },
+      {
+        "name": "recent-files-fuzzy-finder",
+        "action": "added"
+      },
+      {
+        "name": "smart-backspace",
+        "action": "removed"
+      },
+      {
+        "name": "sourcerer",
+        "action": "removed"
+      },
+      {
+        "name": "status-bar",
+        "action": "removed"
+      },
+      {
+        "name": "sublime-word-navigation",
+        "action": "removed"
+      },
+      {
+        "name": "symbols-view",
+        "action": "removed"
+      },
+      {
+        "name": "timecop",
+        "action": "removed"
+      },
+      {
+        "name": "todo-show",
+        "action": "added"
+      },
+      {
+        "name": "token-navigation",
+        "action": "removed"
+      },
+      {
+        "name": "two-light-ui",
+        "action": "added"
+      },
+      {
+        "name": "welcome",
+        "action": "removed"
+      },
+      {
+        "name": "wrap-guide",
+        "action": "removed"
+      }
+    ]
+  }
+}

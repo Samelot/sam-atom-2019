@@ -1,0 +1,24 @@
+'menu': [{
+    label: 'Packages'
+    submenu: [{
+        label: 'Code Annotations'
+        submenu: [
+            {
+                label: 'Add annotation'
+                command: 'code-annotations:add-annotation'
+            }
+            {
+                label: "Delete"
+                command: "code-annotations:delete-annotations"
+            }
+            {
+                label: "Show all"
+                command: "code-annotations:show-all"
+            }
+            {
+                label: "Edit Raw"
+                command: "code-annotations:edit-raw"
+            }
+        ]
+    }]
+}]

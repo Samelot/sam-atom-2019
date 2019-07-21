@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-12957-7oophz.meatsjdcxr"
+    ]
+  ],
+  "_from": "../d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+  "_id": "smart-backspace@0.2.3",
+  "_inCache": true,
+  "_location": "/smart-backspace",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+  "_shasum": "a707bb9f942ac9fcd2cccb53004a8a25f650c66c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12957-jet2fi.dnfn56d2t9/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-12957-7oophz.meatsjdcxr",
+  "activationCommands": {
+    "atom-workspace": "smart-backspace:backspace"
+  },
+  "bugs": {
+    "url": "https://github.com/schrej/atom-smart-backspace/issues"
+  },
+  "dependencies": {},
+  "description": "Brings the smart backspace from IntelliJ or the Hungry-Backspace Sublime plugin to Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/schrej/atom-smart-backspace#readme",
+  "keywords": [
+    "editor",
+    "backspace",
+    "smart",
+    "intellij",
+    "hungry"
+  ],
+  "license": "MIT",
+  "main": "./lib/smart-backspace",
+  "name": "smart-backspace",
+  "optionalDependencies": {},
+  "readme": "# smart-backspace [![Travis](https://img.shields.io/travis/schrej/atom-smart-backspace.svg?style=flat-square)](https://travis-ci.org/schrej/atom-smart-backspace)\nBrings the smart backspace from IntelliJ or the hungry-backspace Sublime plugin to Atom.\n\nWhen there is only whitespace to the left of the cursor and in the next line backspace acts like the cursor is at the beginning of the line and deletes everything necessary to end up in the line above. This is hard to explain, pleas look at the gif below.\n\nThe normal backspace behavior is available with `shift-backspace`.\n\n![demo](https://cloud.githubusercontent.com/assets/1710904/19947430/5a3493e8-a148-11e6-9f96-cbaec5c52916.gif)\n\nThis is my first atom package so please expect bugs.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schrej/atom-smart-backspace.git"
+  },
+  "version": "0.2.3"
+}

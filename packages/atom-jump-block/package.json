@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-12305-qe41ae.d0fqbsm7vi"
+    ]
+  ],
+  "_from": "../d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+  "_id": "atom-jump-block@0.5.4",
+  "_inCache": true,
+  "_location": "/atom-jump-block",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+  "_shasum": "627f5b28746db4790a815dd2781bd37149652047",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-12305-1jqg4f6.fe0ptrcnmi/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-12305-qe41ae.d0fqbsm7vi",
+  "bugs": {
+    "url": "https://github.com/germtb/atom-jump-block/issues"
+  },
+  "dependencies": {},
+  "description": "Jump blocks with a hop",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/germtb/atom-jump-block#readme",
+  "keywords": [
+    "code-navigation"
+  ],
+  "license": "MIT",
+  "main": "./lib/jump-block",
+  "name": "atom-jump-block",
+  "optionalDependencies": {},
+  "readme": "## `jump-block`\n\nBetter text navigation with keyboard.\n\n## How to use\n\nUse <kbd>alt</kbd> + <kbd>up</kbd> (or <kbd>alt</kbd> + <kbd>k</kbd>) to go up a block\n\nUse <kbd>alt</kbd> + <kbd>down</kbd> (or <kbd>alt</kbd> + <kbd>j</kbd>) to go down a block\n\nUse <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>up</kbd> (or <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>k</kbd>) to go up a block extending selection\n\nUse <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>down</kbd> (or <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>) to go down a block extending selection\n\n![](https://raw.githubusercontent.com/germtb/gifs/master/atom-jump-block.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germtb/atom-jump-block.git"
+  },
+  "version": "0.5.4"
+}

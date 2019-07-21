@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-10833-mdd25w.xlyn1att9"
+    ]
+  ],
+  "_from": "../d-117106-10833-4pwust.mv41kedn29/package.tgz",
+  "_id": "folded-code-preview@0.2.5",
+  "_inCache": true,
+  "_location": "/folded-code-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117106-10833-4pwust.mv41kedn29/package.tgz",
+  "_shasum": "63c617662a357c1d646438717c54d1bba551d8cf",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-117106-10833-4pwust.mv41kedn29/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-117106-10833-mdd25w.xlyn1att9",
+  "bugs": {
+    "url": "https://github.com/73CN0109y-Packages/folded-code-preview/issues"
+  },
+  "dependencies": {
+    "etch": "^0.12.5",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  },
+  "description": "Just a simple package that allows you to hover over collapsed code and preview the contents",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/73CN0109y-Packages/folded-code-preview#readme",
+  "keywords": [
+    "fold",
+    "code",
+    "preview",
+    "folded",
+    "collapse",
+    "collapsed"
+  ],
+  "license": "MIT",
+  "main": "./lib/folded-code-preview",
+  "name": "folded-code-preview",
+  "optionalDependencies": {},
+  "readme": "# Folded Code Preview\n\nJust a simple package that allows you to hover over collapsed code and preview the contents\n\n![Folded Code Preview](https://user-images.githubusercontent.com/10562383/27982059-0ef52828-63dc-11e7-90a9-e9b5cd76a65f.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/73CN0109y-Packages/folded-code-preview.git"
+  },
+  "version": "0.2.5"
+}

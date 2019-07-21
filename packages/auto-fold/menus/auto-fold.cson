@@ -1,0 +1,23 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'auto-fold'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'auto-fold:toggle'
+        }
+        {
+          'label': 'Fold'
+          'command': 'auto-fold:fold'
+        }
+        {
+          'label': 'Unfold'
+          'command': 'auto-fold:unfold'
+        }
+      ]
+    ]
+  }
+]

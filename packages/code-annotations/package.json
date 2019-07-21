@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+        "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-118517-9477-1lfje6.z8akathuxr"
+    ]
+  ],
+  "_from": "../d-118517-9477-962xdr.euw7gy14i/package.tgz",
+  "_id": "code-annotations@3.2.0",
+  "_inCache": true,
+  "_location": "/code-annotations",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+    "spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118517-9477-962xdr.euw7gy14i/package.tgz",
+  "_shasum": "36f26aa06d87132975d82704c66c32e70e71cdf7",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/d-118517-9477-962xdr.euw7gy14i/package.tgz",
+  "_where": "/private/var/folders/wq/zctg88k56d141d2ym1myqf7m0000gn/T/apm-install-dir-118517-9477-1lfje6.z8akathuxr",
+  "activationCommands": {},
+  "author": {
+    "name": "Jim Neuendorf",
+    "url": "https://github.com/jneuendorf"
+  },
+  "bugs": {
+    "url": "https://github.com/jneuendorf/code-annotations/issues"
+  },
+  "consumedServices": {
+    "renderer": {
+      "versions": {
+        "1.0.0": "registerRenderer"
+      }
+    }
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "classnames": "^2.2.5",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "filehound": "^1.16.3",
+    "fs-extra": "^5.0.0",
+    "fuzzaldrin": "^2.1.0",
+    "ip": "^1.1.5",
+    "lodash.flattendepth": "^4.7.0",
+    "lodash.groupby": "^4.6.0",
+    "lodash.uniqueid": "^4.0.1",
+    "mime": "^2.2.0",
+    "prop-types": "^15.6.1",
+    "qrcode": "^1.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.3.2",
+    "react-is": "^16.3.2",
+    "react-markdown": "^3.3.2",
+    "season": "^6.0.2",
+    "transactions": "^1.1.0"
+  },
+  "description": "An atom package for annotating your source with anything",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.6.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "engines": {
+    "atom": ">=1.25.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jneuendorf/code-annotations#readme",
+  "keywords": [
+    "code",
+    "annotate",
+    "annotation",
+    "documentation"
+  ],
+  "license": "MIT",
+  "main": "lib/annotation-manager.js",
+  "name": "code-annotations",
+  "optionalDependencies": {},
+  "providedServices": {
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "provideTreeViewIcons"
+      }
+    }
+  },
+  "readme": "# Code Annotations ([Atom](http://atom.io) package)\n\nThis is an atom package for creating code annotations.\nAn annotation is a piece of content with a title that can be displayed in [Atom](https://atom.io/).\nCode Annotations will not show up in your code but can nonetheless be used along with a VCS.\n\nAn advantage over `v2.x` is that annotations no longer depend on code comments meaning you can effectively comment code that does not have a comment syntax (e.g. [comments in package.json](https://github.com/npm/npm/issues/4482)).\nAnnotations appear as icons in the Atom gutter and can be revealed by clicking these icons.\n\n![Basic usage](https://github.com/jneuendorf/code-annotations/raw/master/gifs/basic-usage.gif)\n\nBy default, this package can render the 4 [types](#types) of content.\nFurther renderers can be added by\n\n- installing code-annotation plugin packages (for versions `v2.x` see the [example plugin](https://github.com/jneuendorf/code-annotations-test)) or\n- creating Pull Requests.\n\n\n## Usage\n\n### Basics\n\nCode annotations can be added from the packages menu and of course from the command palette.\nNew annotations are added to the current cursor's line by default (it can be changed in one of the dialogs if needed).\n\nMultiple annotations can be attached to the same line. So explanation and images can be used together for the same chunk of code.\n\nAll annotations are saved in `.annotations.cson` in the project root.\nIn `v2.x` there were stored in a `.code-annotations` directory.\nIf such an \"old\" directory exists it should be detected and you should run the `migrate` command (see [commands](#commands)).\n\n\n### <a name=\"types\"></a>Types of annotations\n\n#### `image`\n\nRenders images as `<img>` tags (currently supports png, gif, jpg and bmp).\n\n#### `html`\n\nRenders HTML as you would expect - the web way of rich text.\n\n#### `link`\n\nRenders the web page belonging to a URL.\n\nProject relative files can be displayed by using a file URL starting with `file://$NAME` where `$NAME` is a placeholder for the project named `NAME`.\n\n#### `text`\n\nRenders plain text.\n\n\n### <a name=\"commands\"></a>Commands, shortcuts\n\n| Command | Shortcut | Description |\n|---------|----------|-------------|\n| `add-annotation` | | Adds an annotation. Data is input using some dialogs. |\n| `show-all` | | Displays all annotations of the current project. Choosing one opens the corresponding file at the annotated line. |\n| `edit-raw` | | Opens `.annotations.cson` for editing annotations manually. |\n| `hide-container` | `escape` | Hides/closes the annotation container. |\n| `select-previous-annotation` | `up` | Displays the previous annotation in the list. |\n| `select-next-annotation` | `down` | Displays the next annotation in the list. |\n| `move-annotation-up` | `cmd-up` / `ctrl-up` | Moves the currently selected annotation up the list. |\n| `move-annotation-down` | `cmd-down` / `ctrl-down` | Moves the currently selected annotation down the list. |\n| `show-qr-code` | | Shows the QR code that's required for the [mobile app](#app). |\n| `migrate` | | Migrates annotation data from `v2` to `v3`. |\n\n(`cmd` is used for macOS, `ctrl` for Linux and Windows.)\n\n\n### Showing annotations (rendering)\n\nThe container is made visible by clicking on the icon displayed in the [gutter](https://atom.io/docs/api/latest/Gutter) - a pin icon by default.\nThe `hide-container` command closes it (which is triggered on `escape`).\n\n\n## <a name=\"commands\"></a>Mobile App\n\nThere is a mobile app belonging to this Atom package.\nIt is located in the `AtomCodeAnnotations` folder.\n\nThe app can be used for taking photos.\nThese photos can then be sent to Atom as code annotations.\nIn order for the app to send the photo it needs to know an IP address which it gets by reading the QR code that can be shown with the `show-qr-code` command.\n\n### Distribution\n\n#### iOS\n\nThe app should be deployable using Apple's *Ad Hoc Distribution*.\n\n#### Android\n\nTODO. These links look helpful though:\n\n- https://stackoverflow.com/questions/35935060/\n- https://facebook.github.io/react-native/docs/signed-apk-android.html\n\n\n## Changelog (since `v2.x`)\n\nSee [releases](https://github.com/jneuendorf/code-annotations/releases).\n\n\n## Contribution\n\n### Setting up the package\n\n```bash\napm develop code-annotations\ncd ~/github/code-annotations\natom . --dev\n```\n\nor\n\n```bash\ngit clone https://github.com/jneuendorf/code-annotations.git\ncd code-annotations\napm link\natom .\n# or\n# apm link --dev\n# atom . --dev\n```\n\n### Thanks to\n\n- [edahlseng](https://github.com/edahlseng)\n  for the motivation that led to `v3.0` and ideas for improving quality and\n  performance of the package.\n- [bradleyDean](https://github.com/bradleyDean)\n  for feedback and inspiration\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jneuendorf/code-annotations.git"
+  },
+  "scripts": {
+    "lint": "eslint 'lib/**'"
+  },
+  "version": "3.2.0"
+}
