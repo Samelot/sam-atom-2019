@@ -1,107 +1,107 @@
 "*":
-  "bottom-dock":
-    startOpen: true
-  core:
-    automaticallyUpdate: false
-    destroyEmptyPanes: false
-    disabledPackages: [
-      "about"
-      "atom-jump-block"
-      "auto-fold"
-      "background-tips"
-      "code-peek"
-      "codesidestory-atom"
-      "expand-region"
-      "full-path-in-title-bar"
-      "jumpy"
-      "line-jumper"
-      "line-navigation"
-      "metrics"
-      "package-generator"
-      "smart-backspace"
-      "sourcerer"
-      "sublime-word-navigation"
-      "timecop"
-      "token-navigation"
-      "welcome"
-      "wrap-guide"
-      "casefile"
-      "code-annotations"
-      "symbols-view"
-      "github"
-      "folded-code-preview"
-      "atom-cursor-indent"
-      "nav-panel-plus"
-      "status-bar"
-      "pigments"
-      "todo-show"
-      "notifications"
-    ]
-    packagesWithKeymapsDisabled: [
-      "github"
-      "recent-files-fuzzy-finder"
-    ]
-    telemetryConsent: "no"
-    themes: [
-      "one-dark-ui"
-      "one-light-syntax"
-    ]
-    useTreeSitterParsers: false
-  editor:
-    autoIndentOnPaste: false
-    fontSize: 17
-    showInvisibles: false
-    softWrap: true
-    tabLength: 4
-  "env-from-shell":
-    autoRun: true
-  "exception-reporting":
-    userId: "c093718b-31f0-485b-aa2a-08513e1eb005"
-  "git-diff":
-    showIconsInEditorGutter: true
-  minimap:
-    autoToggle: false
-    displayMinimapOnLeft: true
-    plugins:
-      bookmarks: true
-      bookmarksDecorationsZIndex: 0
-      "find-and-replace": true
-      "find-and-replaceDecorationsZIndex": 0
-      "highlight-selected": true
-      "highlight-selectedDecorationsZIndex": 0
-  notifications:
-    defaultTimeout: 1000
-  "notifications-plus":
-    defaultTimeout: 1000
-  "process-palette":
-    palettePanel: {}
-  "run-command": {}
-  "symbols-tree-nav":
-    autoToggle: true
-  "todo-show":
-    findTheseTodos: [
-      "TODO"
-      "FIXME"
-      "CHANGED"
-      "XXX"
-      "IDEA"
-      "HACK"
-      "NOTE"
-      "REVIEW"
-      "NB"
-      "BUG"
-      "QUESTION"
-      "COMBAK"
-      "TEMP"
-      "REMOVE"
-      "READYOBJ"
-      "PALETTES"
-      "SAM"
-    ]
-    showInTable: [
-      "Text"
-      "Type"
-    ]
-  "tree-view":
-    autoReveal: true
-  "two-light-ui": {}
+    core:
+        automaticallyUpdate: false
+        destroyEmptyPanes: false
+        disabledPackages: [
+            "about"
+            "atom-jump-block"
+            "auto-fold"
+            "background-tips"
+            "code-peek"
+            "codesidestory-atom"
+            "expand-region"
+            "full-path-in-title-bar"
+            "jumpy"
+            "line-jumper"
+            "line-navigation"
+            "metrics"
+            "package-generator"
+            "smart-backspace"
+            "sourcerer"
+            "sublime-word-navigation"
+            "timecop"
+            "token-navigation"
+            "welcome"
+            "wrap-guide"
+            "casefile"
+            "code-annotations"
+            "symbols-view"
+            "github"
+            "folded-code-preview"
+            "nav-panel-plus"
+            "status-bar"
+            "pigments"
+            "todo-show"
+            "notifications"
+            "organized"
+        ]
+        packagesWithKeymapsDisabled: [
+            "github"
+            "recent-files-fuzzy-finder"
+        ]
+        restorePreviousWindowsOnStart: "no"
+        telemetryConsent: "no"
+        themes: [
+            "one-dark-ui"
+            "one-light-syntax"
+        ]
+        useTreeSitterParsers: false
+    editor:
+        autoIndent: false
+        autoIndentOnPaste: false
+        fontSize: 17
+        showInvisibles: false
+        softWrap: true
+        tabLength: 4
+    "env-from-shell":
+        autoRun: true
+    "exception-reporting":
+        userId: "c093718b-31f0-485b-aa2a-08513e1eb005"
+    "git-diff":
+        showIconsInEditorGutter: true
+    minimap:
+        autoToggle: false
+        displayMinimapOnLeft: true
+        plugins:
+            bookmarks: true
+            bookmarksDecorationsZIndex: 0
+            "find-and-replace": true
+            "find-and-replaceDecorationsZIndex": 0
+            "highlight-selected": true
+            "highlight-selectedDecorationsZIndex": 0
+    notifications:
+        defaultTimeout: 1000
+    "notifications-plus":
+        defaultTimeout: 1000
+    "process-palette":
+        palettePanel: {}
+    "run-command": {}
+    "symbols-tree-nav":
+        autoToggle: true
+    "todo-show":
+        findTheseTodos: [
+            "TODO"
+            "FIXME"
+            "CHANGED"
+            "XXX"
+            "IDEA"
+            "HACK"
+            "NOTE"
+            "REVIEW"
+            "NB"
+            "BUG"
+            "QUESTION"
+            "COMBAK"
+            "TEMP"
+            "REMOVE"
+            "READYOBJ"
+            "PALETTES"
+            "SAM"
+        ]
+        showInTable: [
+            "Text"
+            "Type"
+        ]
+    "tree-view":
+        autoReveal: true
+    "two-light-ui": {}

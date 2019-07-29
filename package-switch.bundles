@@ -6,16 +6,8 @@
         "action": "removed"
       },
       {
-        "name": "atom-cursor-indent",
-        "action": "removed"
-      },
-      {
         "name": "atom-jump-block",
         "action": "removed"
-      },
-      {
-        "name": "atom-macros",
-        "action": "added"
       },
       {
         "name": "auto-fold",
@@ -94,10 +86,6 @@
         "action": "removed"
       },
       {
-        "name": "language-todo-extra-words",
-        "action": "added"
-      },
-      {
         "name": "line-jumper",
         "action": "removed"
       },
@@ -131,7 +119,7 @@
       },
       {
         "name": "organized",
-        "action": "added"
+        "action": "removed"
       },
       {
         "name": "package-generator",
@@ -184,10 +172,6 @@
       {
         "name": "token-navigation",
         "action": "removed"
-      },
-      {
-        "name": "two-light-ui",
-        "action": "added"
       },
       {
         "name": "welcome",
