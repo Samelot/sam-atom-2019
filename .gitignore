@@ -3,8 +3,11 @@ compile-cache
 dev
 storage
 .apm
-.node-gyp
 .npm
+.node-gyp
 .atom-socket-secret-*
-packages/
+packages/*
+!packages/language-todo-more-words
+packages/language-todo-more-words/*
+!packages/language-todo-more-words/grammars
 !packages/language-todo-more-words/grammars/todo-extra-words.cson
