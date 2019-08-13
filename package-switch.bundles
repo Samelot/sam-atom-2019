@@ -167,7 +167,7 @@
       },
       {
         "name": "todo-show",
-        "action": "added"
+        "action": "removed"
       },
       {
         "name": "token-navigation",
