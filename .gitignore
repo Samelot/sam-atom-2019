@@ -7,3 +7,4 @@ storage
 .npm
 .atom-socket-secret-*
 packages/
+!packages/language-todo-more-words/grammars/todo-extra-words.cson
