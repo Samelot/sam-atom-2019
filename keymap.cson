@@ -7,15 +7,22 @@
     'cmd-.': 'unset!'
     'ctrl-0': 'unset!'
     'cmd-b': 'fuzzy-finder:toggle-buffer-finder'
+    'shift-cmd-left': 'unset!'
+    'shift-cmd-right': 'unset!'
+    'alt-shift-left': 'unset!'
+    'alt-shift-right': 'unset!'
 
 '.platform-darwin atom-text-editor':
     'cmd-f3': 'unset!'
     'shift-cmd-f3': 'unset!'
 
 '.platform-darwin .find-and-replace':
-    'escape': 'custom:cancel'
+    'escape': 'custom:find'
 
-'.platform-darwin .command-palette, .fuzzy-finder, .recent-files-fuzzy-finder':
+'.platform-darwin .project-find':
+    'escape': 'custom:project-find'
+
+'atom-workspace atom-panel-container.modal':
     'escape': 'core:cancel'
 
 'atom-workspace atom-text-editor:not([mini])':
@@ -29,10 +36,5 @@
     'shift-f5': 'process-palette:kill-focused-process'
     'cmd-alt-f5': 'process-palette:hide'
     'cmd-.': 'application:open-your-keymap'
-    'cmd-shift-.': 'application:open-your-config'
+    'cmd-shift-,': 'application:open-your-config'
     'cmd-\\': 'tree-view:toggle-focus'
-
-#needed when in editor
-# '.workspace .editor:not(.mini)':
-    # 'cmd-.': 'application:open-your-keymap'
-    # 'cmd-<': 'application:open-your-config'

@@ -10,7 +10,7 @@
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
 
-atom.commands.add 'atom-workspace', 'custom:cancel', (e) ->
+atom.commands.add 'atom-workspace', 'custom:find', (e) ->
   dismissedCounter = 0
   atom.notifications.getNotifications().forEach (notification) ->
     unless notification.dismissed
@@ -18,6 +18,15 @@ atom.commands.add 'atom-workspace', 'custom:cancel', (e) ->
       dismissedCounter++
   if dismissedCounter is 0
     atom.commands.dispatch e.currentTarget, 'find-and-replace:toggle'
+
+atom.commands.add 'atom-workspace', 'custom:project-find', (e) ->
+  dismissedCounter = 0
+  atom.notifications.getNotifications().forEach (notification) ->
+    unless notification.dismissed
+      notification.dismiss()
+      dismissedCounter++
+  if dismissedCounter is 0
+    atom.commands.dispatch e.currentTarget, 'project-find:toggle'
 
 atom.commands.add '.find-and-replace', 'custom:where-from', (e) ->
     dock = atom.workspace.getBottomDock()

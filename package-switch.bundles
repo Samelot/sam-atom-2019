@@ -118,6 +118,10 @@
         "action": "removed"
       },
       {
+        "name": "notifications-plus",
+        "action": "removed"
+      },
+      {
         "name": "organized",
         "action": "removed"
       },

@@ -33,8 +33,9 @@
       "status-bar"
       "pigments"
       "todo-show"
-      "notifications"
       "organized"
+      "language-todo"
+      "notifications-plus"
     ]
     packagesWithKeymapsDisabled: [
       "github"
@@ -69,8 +70,7 @@
       "find-and-replaceDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  notifications:
-    defaultTimeout: 1000
+  notifications: {}
   "notifications-plus":
     defaultTimeout: 1000
   "package-sync-plus":
@@ -82,9 +82,13 @@
   "symbols-tree-nav":
     autoToggle: true
   "sync-settings":
-    _lastBackupHash: "4b2bdbe971b5977a9f261466db093d572e69f8b5"
-    gistId: "5135120492d06524549a09416170d14f"
-    personalAccessToken: "1c2b5014c8d063e7cab6bc659e869df1e024e967"
+    _lastBackupHash: "93fc75fbf350b7fbc9044d1f8c8c6ad6ea55b9aa"
+    extraFiles: [
+      "package-switch.bundles"
+      "process-palette.json"
+    ]
+    gistId: "a2d82727d837faec073aad9a4870e78f"
+    personalAccessToken: "f5a9743ebaf8d74be64f711aaeb715db58f4056e"
   "todo-show":
     findTheseTodos: [
       "TODO"
