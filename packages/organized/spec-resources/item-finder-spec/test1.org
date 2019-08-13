@@ -1,3 +1,0 @@
-* [TODO] Todo1
-* Agenda 1
-  SCHEDULED: <2017-09-18 Mon 10:00>
