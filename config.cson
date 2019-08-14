@@ -1,5 +1,4 @@
 "*":
-  "atom-package-sync": {}
   core:
     automaticallyUpdate: false
     destroyEmptyPanes: false
@@ -73,22 +72,11 @@
   notifications: {}
   "notifications-plus":
     defaultTimeout: 1000
-  "package-sync-plus":
-    gistId: "5135120492d06524549a09416170d14f"
-    personalAccessToken: "1c2b5014c8d063e7cab6bc659e869df1e024e967"
   "process-palette":
     palettePanel: {}
   "run-command": {}
   "symbols-tree-nav":
     autoToggle: true
-  "sync-settings":
-    _lastBackupHash: "6e1320e2a2bb320d4db65e0eae635ffe840f1dcb"
-    extraFiles: [
-      "package-switch.bundles"
-      "process-palette.json"
-    ]
-    gistId: "56337394801ca53d9ca3b4ac3111fec8"
-    personalAccessToken: "82614972f928b28e2b5ee4b328aeec321d3cf0c2"
   "todo-show":
     findTheseTodos: [
       "TODO"
