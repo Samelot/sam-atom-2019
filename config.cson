@@ -82,13 +82,13 @@
   "symbols-tree-nav":
     autoToggle: true
   "sync-settings":
-    _lastBackupHash: "93fc75fbf350b7fbc9044d1f8c8c6ad6ea55b9aa"
+    _lastBackupHash: "6e1320e2a2bb320d4db65e0eae635ffe840f1dcb"
     extraFiles: [
       "package-switch.bundles"
       "process-palette.json"
     ]
-    gistId: "a2d82727d837faec073aad9a4870e78f"
-    personalAccessToken: "f5a9743ebaf8d74be64f711aaeb715db58f4056e"
+    gistId: "56337394801ca53d9ca3b4ac3111fec8"
+    personalAccessToken: "82614972f928b28e2b5ee4b328aeec321d3cf0c2"
   "todo-show":
     findTheseTodos: [
       "TODO"
