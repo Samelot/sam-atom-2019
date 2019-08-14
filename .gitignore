@@ -7,7 +7,6 @@ storage
 .node-gyp
 .atom-socket-secret-*
 packages/*
-!packages/sync-settings
 !packages/language-todo-more-words
 packages/language-todo-more-words/*
 !packages/language-todo-more-words/grammars
