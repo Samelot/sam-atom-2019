@@ -72,6 +72,7 @@
   notifications: {}
   "notifications-plus":
     defaultTimeout: 1000
+  "package-sync": {}
   "process-palette":
     palettePanel: {}
   "run-command": {}
