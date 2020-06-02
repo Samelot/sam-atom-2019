@@ -12,7 +12,7 @@
     {
       "namespace": "process-palette",
       "action": "corona",
-      "command": "{configDirAbsPath}/sam_exec/corona.sh",
+      "command": "{configDirAbsPath}/sam_exec/corona_slowfix.sh",
       "arguments": [],
       "cwd": null,
       "inputDialogs": [],
@@ -29,7 +29,9 @@
       "promptToSave": true,
       "saveOption": "none",
       "patterns": [
-        "default"
+        "default",
+        "P1",
+        "P2"
       ],
       "successOutput": "{stdout}",
       "errorOutput": "{stdout}\n{stderr}",
@@ -45,7 +47,7 @@
       "scriptOnStart": false,
       "scriptOnSuccess": false,
       "scriptOnError": false,
-      "notifyOnStart": false,
+      "notifyOnStart": true,
       "notifyOnSuccess": true,
       "notifyOnError": true,
       "input": null

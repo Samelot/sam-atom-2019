@@ -38,8 +38,8 @@
         "action": "removed"
       },
       {
-        "name": "codesidestory-atom",
-        "action": "removed"
+        "name": "cursor-history",
+        "action": "added"
       },
       {
         "name": "expand-region",
@@ -151,6 +151,10 @@
       },
       {
         "name": "sourcerer",
+        "action": "removed"
+      },
+      {
+        "name": "spell-check",
         "action": "removed"
       },
       {

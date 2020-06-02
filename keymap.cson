@@ -38,3 +38,5 @@
     'cmd-.': 'application:open-your-keymap'
     'cmd-shift-,': 'application:open-your-config'
     'cmd-\\': 'tree-view:toggle-focus'
+    'ctrl-cmd-o': 'cursor-history:next-within-editor'
+    'ctrl-cmd-i': 'cursor-history:prev-within-editor'

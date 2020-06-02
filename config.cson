@@ -35,10 +35,12 @@
       "organized"
       "language-todo"
       "notifications-plus"
+      "spell-check"
     ]
     packagesWithKeymapsDisabled: [
       "github"
       "recent-files-fuzzy-finder"
+      "run-in-terminal"
     ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
@@ -48,10 +50,10 @@
     ]
     useTreeSitterParsers: false
   editor:
-    autoIndent: false
     autoIndentOnPaste: false
-    fontSize: 17
+    fontSize: 19
     softWrap: true
+    softWrapHangingIndent: 4
     tabLength: 4
   "env-from-shell":
     autoRun: true
@@ -76,6 +78,9 @@
   "process-palette":
     palettePanel: {}
   "run-command": {}
+  "run-in-terminal":
+    launchdir: "osascript -e 'tell application \"Terminal\"' -e 'if not (exists window 1) then reopen' -e 'activate' -e 'do script \"cd \\\"{project_directory}\\\" && ~/.atom/sam_exec/corona_notime.sh\" in window 1' -e 'end tell'"
+  "scroll-editor-on-middle-click": {}
   "symbols-tree-nav":
     autoToggle: true
   "todo-show":
