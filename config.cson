@@ -4,38 +4,18 @@
     destroyEmptyPanes: false
     disabledPackages: [
       "about"
-      "atom-jump-block"
-      "auto-fold"
       "background-tips"
-      "code-peek"
       "codesidestory-atom"
-      "expand-region"
-      "full-path-in-title-bar"
-      "jumpy"
-      "line-jumper"
-      "line-navigation"
       "metrics"
       "package-generator"
-      "smart-backspace"
-      "sourcerer"
-      "sublime-word-navigation"
       "timecop"
-      "token-navigation"
       "welcome"
       "wrap-guide"
-      "casefile"
-      "code-annotations"
       "symbols-view"
       "github"
-      "folded-code-preview"
-      "nav-panel-plus"
-      "status-bar"
-      "pigments"
-      "todo-show"
-      "organized"
       "language-todo"
-      "notifications-plus"
       "spell-check"
+      "notifications"
     ]
     packagesWithKeymapsDisabled: [
       "github"
@@ -44,16 +24,12 @@
     ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
-    themes: [
-      "one-dark-ui"
-      "one-light-syntax"
-    ]
     useTreeSitterParsers: false
   editor:
     autoIndentOnPaste: false
     fontSize: 19
     softWrap: true
-    softWrapHangingIndent: 4
+    softWrapHangingIndent: 8
     tabLength: 4
   "env-from-shell":
     autoRun: true
@@ -61,6 +37,7 @@
     userId: "c093718b-31f0-485b-aa2a-08513e1eb005"
   "git-diff":
     showIconsInEditorGutter: true
+  "linter-ui-default": {}
   minimap:
     autoToggle: false
     displayMinimapOnLeft: true
